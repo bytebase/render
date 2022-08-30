@@ -1,6 +1,1 @@
-services:
-- type: web
-  name: bytebase
-  env: docker
-  plan: free
-  dockerfilePath: ./Dockerfile
+bytebase --host ${RENDER_EXTERNAL_URL} --port 80 --data /var/opt/bytebase
