@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: hello-bytebase
+    name: bytebase
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile

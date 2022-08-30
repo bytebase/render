@@ -4,7 +4,7 @@ FROM bytebase/bytebase:1.3.1
 # Directory to store the data, which can be referenced as the mounting point.
 RUN mkdir -p /var/opt/bytebase
 
-ARG RENDER_EXTERNAL_URL="unknown"
+ARG RENDER_EXTERNAL_HOST="unknown"
 
 ENV RENDER_EXTERNAL_URL=$RENDER_EXTERNAL_URL
 
