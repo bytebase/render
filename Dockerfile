@@ -1,5 +1,5 @@
 # The official Bytebase Docker image
-FROM bytebase/bytebase:1.3.1
+FROM bytebase/bytebase:release-ci
 
 # Directory to store the data, which can be referenced as the mounting point.
 RUN mkdir -p /var/opt/bytebase

@@ -1,6 +1,16 @@
 services:
   - type: web
     name: bytebase
+    region: oregon
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
+    envVars:
+      - key: PG_URL
+        fromDatabase:
+          name: metadb
+          property: connectionString
+databases:
+  - name: metadb
+    region: oregon
+    plan: free
