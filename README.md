@@ -1,5 +1,5 @@
 # Bytebase
 
-This is a template for deploying Bytebase on Render. Create a new repo using this template, and then click the button below to try it out:
+This is the [Render Blueprint](https://render.com/docs/blueprint-spec) for deploying Bytebase on Render.
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/docs/infrastructure-as-code)
