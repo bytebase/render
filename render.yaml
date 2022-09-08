@@ -5,6 +5,7 @@ services:
     env: docker
     plan: free
     dockerfilePath: ./Dockerfile
+    healthCheckPath: /healthz
     envVars:
       - key: PG_URL
         fromDatabase:
