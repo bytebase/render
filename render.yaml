@@ -9,7 +9,7 @@ services:
     envVars:
       - key: PG_URL
         fromDatabase:
-          name: metadb
+          name: bytebase-metadb
           property: connectionString
 databases:
   - name: bytebase-metadb
